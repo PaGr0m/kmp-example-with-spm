@@ -13,10 +13,10 @@
 		282CCE19265EDE7800763C0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 282CCE18265EDE7800763C0D /* Preview Assets.xcassets */; };
 		282CCE25265EDE7800763C0D /* macosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282CCE24265EDE7800763C0D /* macosAppTests.swift */; };
 		282CCE30265EDE7800763C0D /* macosAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282CCE2F265EDE7800763C0D /* macosAppUITests.swift */; };
-		282CCE45265EE25500763C0D /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282CCE43265EE22900763C0D /* AFNetworking.framework */; };
-		282CCE46265EE25500763C0D /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 282CCE43265EE22900763C0D /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		282CCE49265EE25600763C0D /* KotlinLibrary.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 282CCE3E265EDEEB00763C0D /* KotlinLibrary.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		282CCE4B265EE83200763C0D /* KotlinLibrary.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282CCE3E265EDEEB00763C0D /* KotlinLibrary.xcframework */; };
+		2876ABC026630B180033C5AA /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282CCE43265EE22900763C0D /* AFNetworking.framework */; };
+		2876ABC126630B180033C5AA /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 282CCE43265EE22900763C0D /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2876ABC326630B1A0033C5AA /* KotlinLibrary.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 282CCE3E265EDEEB00763C0D /* KotlinLibrary.xcframework */; };
+		2876ABC426630B1A0033C5AA /* KotlinLibrary.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 282CCE3E265EDEEB00763C0D /* KotlinLibrary.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		282CCE47265EE25500763C0D /* Embed Frameworks */ = {
+		2876ABC226630B180033C5AA /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				282CCE49265EE25600763C0D /* KotlinLibrary.xcframework in Embed Frameworks */,
-				282CCE46265EE25500763C0D /* AFNetworking.framework in Embed Frameworks */,
+				2876ABC426630B1A0033C5AA /* KotlinLibrary.xcframework in Embed Frameworks */,
+				2876ABC126630B180033C5AA /* AFNetworking.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,6 +67,7 @@
 		282CCE31265EDE7800763C0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		282CCE3E265EDEEB00763C0D /* KotlinLibrary.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = KotlinLibrary.xcframework; path = "kotlin-xcframework/KotlinLibrary.xcframework"; sourceTree = "<group>"; };
 		282CCE43265EE22900763C0D /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "kotlin-xcframework/AFNetworking.framework"; sourceTree = "<group>"; };
+		2876ABBC26630AE70033C5AA /* KotlinLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KotlinLibrary.framework; path = "kotlin-xcframework/KotlinLibrary.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				282CCE4B265EE83200763C0D /* KotlinLibrary.xcframework in Frameworks */,
-				282CCE45265EE25500763C0D /* AFNetworking.framework in Frameworks */,
+				2876ABC326630B1A0033C5AA /* KotlinLibrary.xcframework in Frameworks */,
+				2876ABC026630B180033C5AA /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +160,7 @@
 		282CCE3D265EDEEB00763C0D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2876ABBC26630AE70033C5AA /* KotlinLibrary.framework */,
 				282CCE43265EE22900763C0D /* AFNetworking.framework */,
 				282CCE3E265EDEEB00763C0D /* KotlinLibrary.xcframework */,
 			);
@@ -175,7 +177,7 @@
 				282CCE0A265EDE7700763C0D /* Sources */,
 				282CCE0B265EDE7700763C0D /* Frameworks */,
 				282CCE0C265EDE7700763C0D /* Resources */,
-				282CCE47265EE25500763C0D /* Embed Frameworks */,
+				2876ABC226630B180033C5AA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
